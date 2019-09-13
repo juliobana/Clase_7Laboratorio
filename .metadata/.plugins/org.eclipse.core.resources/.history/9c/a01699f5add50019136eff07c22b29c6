@@ -23,7 +23,6 @@ int main(void) {
 	//fgets(nombre;sizeof(nombre); stdin)
 	//char numero[64];
 	//fgets(numero,64);
-	strlen(input)= devuelve numero de caracteres
 	//"Validar numero"
 	//[0]='2'=50
 	//[0]='7'=50
@@ -43,35 +42,11 @@ int getInt(	int *pResultado,
 {
 	int retorno = -1;
 	int buffer;
-	char numero[64];
 	do
 	{
 		printf("%s",pMensaje);
-		fflush(stdin);
-
-		//scanf("%d",&buffer)==1
-		fgets(numero,64,stdin);
-		//validar() // no haya caracteres con letras 09A7
-int esNumerica(char input[])
-int i, retorno;
-		int length = strlen(input);
-		for(int i=0;i<length;i++){
-		if(numero[i]<'0'!! numero[i]>'9'){
-
-			retorno = -1;
-			break;
-
-
-
-				}
-		}
-		buffer = atoi(numero);
-
-
-
-
-
-		if(buffer >= minimo && buffer <= maximo)
+		__fpurge(stdin);
+		if(scanf("%d",&buffer)==1 && buffer >= minimo && buffer <= maximo)
 		{
 			*pResultado = buffer;
 			retorno = 0;

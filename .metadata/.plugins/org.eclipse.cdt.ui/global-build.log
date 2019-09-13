@@ -4,3 +4,50 @@ make: No se hace nada para 'all'.
 18:38:08 **** Incremental Build of configuration Debug for project Clase7_laboratorio ****
 make all 
 make: No se hace nada para 'all'.
+18:52:01 **** Incremental Build of configuration Debug for project Clase7_laboratorio ****
+make all 
+Building file: ../src/Clase7_laboratorio.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase7_laboratorio.d" -MT"src/Clase7_laboratorio.o" -o "src/Clase7_laboratorio.o" "../src/Clase7_laboratorio.c"
+../src/Clase7_laboratorio.c: In function ‘main’:
+../src/Clase7_laboratorio.c:16:10: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   printf(c);
+          ^
+In file included from ../src/Clase7_laboratorio.c:11:0:
+/usr/include/stdio.h:364:12: note: expected ‘const char * restrict’ but argument is of type ‘int’
+ extern int printf (const char *__restrict __format, ...);
+            ^~~~~~
+Finished building: ../src/Clase7_laboratorio.c
+ 
+Building target: Clase7_laboratorio
+Invoking: GCC C Linker
+gcc  -o "Clase7_laboratorio"  ./src/Clase7_laboratorio.o   
+Finished building target: Clase7_laboratorio
+ 
+18:52:07 **** Incremental Build of configuration Debug for project Clase7_laboratorio ****
+make all 
+make: No se hace nada para 'all'.
+18:52:15 **** Incremental Build of configuration Debug for project Clase7_laboratorio ****
+make all 
+make: No se hace nada para 'all'.
+18:52:17 **** Incremental Build of configuration Debug for project Clase7_laboratorio ****
+make all 
+make: No se hace nada para 'all'.
+18:52:19 **** Incremental Build of configuration Debug for project Clase7_laboratorio ****
+make all 
+make: No se hace nada para 'all'.
+18:52:54 **** Incremental Build of configuration Debug for project Clase7_laboratorio ****
+make all 
+Building file: ../src/Clase7_laboratorio.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase7_laboratorio.d" -MT"src/Clase7_laboratorio.o" -o "src/Clase7_laboratorio.o" "../src/Clase7_laboratorio.c"
+Finished building: ../src/Clase7_laboratorio.c
+ 
+Building target: Clase7_laboratorio
+Invoking: GCC C Linker
+gcc  -o "Clase7_laboratorio"  ./src/Clase7_laboratorio.o   
+Finished building target: Clase7_laboratorio
+ 
+18:52:55 **** Incremental Build of configuration Debug for project Clase7_laboratorio ****
+make all 
+make: No se hace nada para 'all'.

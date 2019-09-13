@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : Clase7_laboratorio.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	//sizeof() tamaño final del array
+	//stdin leer de consola como archivo
+	//fgets(nombre;sizeof(nombre); stdin)
+	//char numero[64];
+	//fgets(numero,64);
+	//"Validar numero"
+	//[0]='2'=50
+	//[0]='7'=50
+	//[0]='\n'=50
+	//[0]='0'=50
+	//int = ATOI(numero);
+
+}

@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : Clase7_laboratorio.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int c = 'A';
+		printf("%d",c);
+
+		//sizeof() tamaño final del array
+		//stdin leer de consola como archivo
+
+		fgets(nombre;sizeof(nombre); stdin)
+}
