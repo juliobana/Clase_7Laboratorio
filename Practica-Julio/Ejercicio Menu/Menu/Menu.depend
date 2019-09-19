@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1568851482 source:d:\practica-julio\ejercicio menu\menu\misfunciones.c
+	"misFunciones.h"
+
+1568851108 d:\practica-julio\ejercicio menu\menu\misfunciones.h
+	"misFunciones.h"
+
+1568851414 source:d:\practica-julio\ejercicio menu\menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	"misFunciones.h"
+
